@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj": {}
+  },
+  "projects": {
+    "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Common/InsuranceCompany.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Common/InsuranceCompany.Common.csproj",
+        "projectName": "InsuranceCompany.Common",
+        "projectPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Common/InsuranceCompany.Common.csproj",
+        "packagesPath": "/Users/dmitrysisoy/.nuget/packages/",
+        "outputPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dmitrysisoy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Contracts/InsuranceCompany.Data.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Contracts/InsuranceCompany.Data.Contracts.csproj",
+        "projectName": "InsuranceCompany.Data.Contracts",
+        "projectPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Contracts/InsuranceCompany.Data.Contracts.csproj",
+        "packagesPath": "/Users/dmitrysisoy/.nuget/packages/",
+        "outputPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dmitrysisoy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Common/InsuranceCompany.Common.csproj": {
+                "projectPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Common/InsuranceCompany.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj",
+        "projectName": "InsuranceCompany.Data.Internal",
+        "projectPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj",
+        "packagesPath": "/Users/dmitrysisoy/.nuget/packages/",
+        "outputPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Internal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dmitrysisoy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Contracts/InsuranceCompany.Data.Contracts.csproj": {
+                "projectPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Contracts/InsuranceCompany.Data.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

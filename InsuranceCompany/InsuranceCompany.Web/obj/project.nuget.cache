@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "98n8rL5G/WoL+xE55ophvwA2fW+49omln3KseW5V9d5BW9FieBrpnM16CvhkCDJffttKEOEq5cUE9UOK15F6Gw==",
+  "dgSpecHash": "+P/9RnyQp1W97eh61Q+G4l66dbsrqcPmjJa/f97YeaOW6CTgRApizKy9yi13IaIkLEq2lVzkaRdUtKI152vlyA==",
   "success": true,
-  "projectFilePath": "/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Web/InsuranceCompany.Web.csproj",
+  "projectFilePath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Web/InsuranceCompany.Web.csproj",
   "expectedPackageFiles": [
     "/Users/dmitrysisoy/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/dmitrysisoy/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.9/microsoft.aspnetcore.cryptography.internal.6.0.9.nupkg.sha512",

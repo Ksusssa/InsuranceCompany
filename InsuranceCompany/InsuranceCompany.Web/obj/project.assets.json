@@ -1190,6 +1190,45 @@
             "rid": "win"
           }
         }
+      },
+      "InsuranceCompany.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InsuranceCompany.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsuranceCompany.Common.dll": {}
+        }
+      },
+      "InsuranceCompany.Data.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InsuranceCompany.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsuranceCompany.Data.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsuranceCompany.Data.Contracts.dll": {}
+        }
+      },
+      "InsuranceCompany.Data.Internal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InsuranceCompany.Data.Contracts": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.10"
+        },
+        "compile": {
+          "bin/placeholder/InsuranceCompany.Data.Internal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsuranceCompany.Data.Internal.dll": {}
+        }
       }
     }
   },
@@ -2952,10 +2991,26 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "InsuranceCompany.Common/1.0.0": {
+      "type": "project",
+      "path": "../InsuranceCompany.Common/InsuranceCompany.Common.csproj",
+      "msbuildProject": "../InsuranceCompany.Common/InsuranceCompany.Common.csproj"
+    },
+    "InsuranceCompany.Data.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InsuranceCompany.Data.Contracts/InsuranceCompany.Data.Contracts.csproj",
+      "msbuildProject": "../InsuranceCompany.Data.Contracts/InsuranceCompany.Data.Contracts.csproj"
+    },
+    "InsuranceCompany.Data.Internal/1.0.0": {
+      "type": "project",
+      "path": "../InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj",
+      "msbuildProject": "../InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "InsuranceCompany.Data.Internal >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.9",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.9",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.9",
@@ -2970,11 +3025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Web/InsuranceCompany.Web.csproj",
+      "projectUniqueName": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Web/InsuranceCompany.Web.csproj",
       "projectName": "InsuranceCompany.Web",
-      "projectPath": "/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Web/InsuranceCompany.Web.csproj",
+      "projectPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Web/InsuranceCompany.Web.csproj",
       "packagesPath": "/Users/dmitrysisoy/.nuget/packages/",
-      "outputPath": "/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Web/obj/",
+      "outputPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Web/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dmitrysisoy/.nuget/NuGet/NuGet.Config"
@@ -2988,7 +3043,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj": {
+              "projectPath": "/Users/dmitrysisoy/RiderProjects/insurance company/InsuranceCompany/InsuranceCompany.Data.Internal/InsuranceCompany.Data.Internal.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

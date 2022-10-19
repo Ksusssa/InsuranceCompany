@@ -1,0 +1,12 @@
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/bin/Debug/net6.0/InsuranceCompany.Common.deps.json
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/bin/Debug/net6.0/InsuranceCompany.Common.dll
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/bin/Debug/net6.0/InsuranceCompany.Common.pdb
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/InsuranceCompany.Common.csproj.AssemblyReference.cache
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/InsuranceCompany.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/InsuranceCompany.Common.AssemblyInfoInputs.cache
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/InsuranceCompany.Common.AssemblyInfo.cs
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/InsuranceCompany.Common.csproj.CoreCompileInputs.cache
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/InsuranceCompany.Common.dll
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/refint/InsuranceCompany.Common.dll
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/InsuranceCompany.Common.pdb
+/Users/dmitrysisoy/RiderProjects/InsuranceCompanyKurs/InsuranceCompany/InsuranceCompany.Common/obj/Debug/net6.0/ref/InsuranceCompany.Common.dll
